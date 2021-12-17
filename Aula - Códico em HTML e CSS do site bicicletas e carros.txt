@@ -1,0 +1,68 @@
+HTML:
+
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Carros e Bicicletas</title>
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <h1>Carros e Bicicletas</h1>
+  <div class="item">
+    <h2>Carro: <span>R$ 1999</span></h2>
+    <p>Carro modelo <span>2045</span>, com <span>200km</span> rodados.</p>
+    <a href="/">Comprar Carro</a>
+  </div>
+  <div class="item"">
+    <h2>Bicicleta: <span>R$ 199</span></h2>
+    <p>Bicicleta modelo <span>2050</span>, com <span>20km</span> rodados.</p>
+    <a href=" /">Comprar bicicleta</a>
+  </div>
+</body>
+
+</html>
+
+
+CSS:
+
+body {
+  font-family: arial;
+  margin: 50px;
+}
+
+h1 {
+  text-align: center;
+}
+
+h2 {
+  margin: 0px;
+}
+
+.item {
+  color: white;
+  background: #111;
+  margin: 20px;
+  padding: 30px;
+  border-radius: 4px;
+}
+
+p {
+  color: #b2b2b2;
+  padding-bottom: 10px;
+}
+
+span {
+  color: #febe01;
+}
+
+a {
+  display: inline-block;
+  background-color: #febe01;
+  text-decoration: none;
+  color: #332200;
+  border-radius: 4px;
+  padding: 10px;
+}
